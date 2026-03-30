@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl -s https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Services/Input/InputAction.cs)",
+      "Bash(curl -s https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Services/Input/KeyBind.cs)",
+      "Bash(curl -s https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Services/Input/KeyConfig.cs)",
+      "Bash(curl -s https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Capabilities/Camera/CameraCapability.cs)",
+      "Bash(curl -s https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Capabilities/Camera/BrioCameraCapability.cs)",
+      "Bash(curl -s https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Game/Camera/VirtualCamera.cs)",
+      "Bash(curl -s https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Game/Camera/VirtualCameraManager.cs)",
+      "Bash(curl -s https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/UI/Windows/SettingsWindow.cs)",
+      "Bash(gh api:*)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Services/Input/InputManagerService.cs\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Config/InputManagerConfiguration.cs\")",
+      "Bash(curl -s https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Game/Input/GameInputService.cs)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Services/DalamudPluginService.cs\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Config/Configuration.cs\")"
+    ]
+  }
+}
