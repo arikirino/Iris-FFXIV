@@ -16,7 +16,19 @@
       "Bash(curl -s \"https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Config/InputManagerConfiguration.cs\")",
       "Bash(curl -s https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Game/Input/GameInputService.cs)",
       "Bash(curl -s \"https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Services/DalamudPluginService.cs\")",
-      "Bash(curl -s \"https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Config/Configuration.cs\")"
+      "Bash(curl -s \"https://raw.githubusercontent.com/Etheirys/Brio/v0.7.1.2/Brio/Config/Configuration.cs\")",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -s https://raw.githubusercontent.com/goatcorp/SamplePlugin/master/SamplePlugin/SamplePlugin.csproj)",
+      "Bash(curl -s https://raw.githubusercontent.com/goatcorp/SamplePlugin/master/SamplePlugin/Windows/MainWindow.cs)",
+      "Bash(dotnet build:*)",
+      "Bash(where dotnet:*)",
+      "Read(//c/Program Files/dotnet/**)",
+      "Read(//c/Program Files \\(x86\\)/dotnet/**)",
+      "Bash(\"/c/Program Files/dotnet/dotnet.exe\" build \"c:/Users/simon/Dropbox/FFXIV Stuff/Iris FFXIV/Iris/Iris.csproj\")",
+      "Bash(\"/c/Program Files/dotnet/dotnet.exe\" --version)",
+      "Bash(\"/c/Program Files/dotnet/dotnet.exe\" --list-sdks)",
+      "Bash(dotnet --version)",
+      "Bash(dotnet --list-sdks)"
     ]
   }
 }

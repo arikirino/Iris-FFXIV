@@ -1,0 +1,17 @@
+# Build output
+Iris/bin/
+Iris/obj/
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# VS / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# OS
+Thumbs.db
+.DS_Store

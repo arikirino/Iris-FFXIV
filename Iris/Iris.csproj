@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/14.0.2">
+  <PropertyGroup>
+    <AssemblyName>Iris</AssemblyName>
+    <Version>0.1.0.0</Version>
+    <PackageId>Iris</PackageId>
+    <Name>Iris</Name>
+    <Author>YourName</Author>
+    <Authors>YourName</Authors>
+    <Punchline>Plant waypoints. Press play. Cinematic camera paths without Blender.</Punchline>
+    <Description>In-game camera waypoint system for FFXIV GPose — Captura-style camera paths without Blender.</Description>
+    <PackageProjectUrl>https://github.com/YOUR_USERNAME/iris</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/YOUR_USERNAME/iris</RepositoryUrl>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <IsPackable>false</IsPackable>
+    <!-- Required for FFXIVClientStructs pointer arithmetic -->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+</Project>
